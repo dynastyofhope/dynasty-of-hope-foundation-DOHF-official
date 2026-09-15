@@ -51,9 +51,10 @@ magick poster-bg.jpg -resize 1080x1620^ -gravity center -extent 1080x1620 \
   \
   -fill "rgba(6,40,24,0.95)" -draw "rectangle 0,1440 1080,1620" \
   -fill "$GREEN" -draw "rectangle 0,1440 1080,1446" \
-  -font "$FB" -pointsize 32 -fill "$WHITE" -gravity North -annotate +0+1470 "Call / WhatsApp: 0903 698 9696, 0703 382 8292" \
-  -font "$FR" -pointsize 30 -fill "#cfe6d8" -gravity North -annotate +0+1520 "Email: Dynastyofhope2023@gmail.com" \
-  -font "$FR" -pointsize 28 -fill "#cfe6d8" -gravity North -annotate +0+1565 "Follow us on Facebook & Instagram: Dynasty of Hope Foundation" \
+  -font "$FB" -pointsize 28 -fill "$WHITE" -gravity North -annotate +0+1456 "Call / WhatsApp: 0903 698 9696, 0703 382 8292" \
+  -font "$FR" -pointsize 24 -fill "#cfe6d8" -gravity North -annotate +0+1496 "Email: Dynastyofhope2023@gmail.com" \
+  -font "$FB" -pointsize 24 -fill "$WHITE" -gravity North -annotate +0+1532 "CARNIVAL SPONSORSHIP PROPOSAL:" \
+  -font "$FR" -pointsize 20 -fill "#cfe6d8" -gravity North -annotate +0+1566 "dynastyofhope.github.io/dynasty-of-hope-foundation-DOHF-official/proposal-carnival.html" \
   poster-carnival.jpg
 
 echo "poster-carnival.jpg rebuilt (blue/white/green)"
